@@ -10,16 +10,16 @@ Highway Car Rush is a driving game featuring realistic car mechanics, including 
 
 ## ✨ Features & Implementation Details
 
-### 🏎️ Vehicle Mechanics & Physics (Member 1)
+### 🏎️ Vehicle Mechanics & Physics
 *   **Detailed 3D Car Models:** Custom-built player and traffic cars using OpenGL primitives.
 *   **Dynamic Wheel Rotation:** Wheels spin faster or slower corresponding to the car's actual velocity.
 *   **Physical Damage System:**
     *   Visual deformation logic (hood pops open, body color darkens).
-    *   Particle effects (smoke/fire) appear based on damage severity (Levels 1-3).
+    *   Particle effects (smoke) appear based on damage severity.
 *   **Parabolic Stunt Jumps:** Physics-based gravity calculation for realistic flight trajectories off ramps.
 *   **Grenade Launcher:** Projectile weapon system that destroys obstacles and clears lanes with visual impact.
 
-### 🌍 World, Environment & Camera (Member 2)
+### 🌍 World, Environment & Camera
 *   **Procedural Road Generation:** Infinite 3D road with slopes, lanes, and elevated bridges.
 *   **Dynamic Themes:** Toggleable environments between **Urban** (skyscrapers with lit windows) and **Rural** (trees and nature).
 *   **Day/Night Cycle:** Real-time lighting changes affecting sky color and visibility.
@@ -27,7 +27,7 @@ Highway Car Rush is a driving game featuring realistic car mechanics, including 
 *   **Earthquake Event:** Random hazard event that shakes the camera and increases difficulty.
 *   **Cheat Mode:** Dev-tool toggle for invincibility (disables Game Over) while maintaining scoring mechanics.
 
-### 🤖 AI, Traffic & Gameplay Logic (Member 3)
+### 🤖 AI, Traffic & Gameplay Logic
 *   **Smart Traffic System:** AI cars obey traffic laws, stopping at Red lights and yielding to pedestrians.
 *   **Pedestrian Crossing:** Fully animated 3D humans cross the road at zebra crossings during red lights.
 *   **Penalty System:** Logic to deduct points for running red lights or hitting pedestrians (complete with "falling" animations).
